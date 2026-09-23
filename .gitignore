@@ -1,0 +1,58 @@
+# Maven
+target/
+**/target/
+
+# Node
+node_modules/
+**/node_modules/
+
+# Database runtime data
+volume-data/
+**/volume-data/
+
+# MySQL runtime data
+**/mysql/
+**/mysql/data/
+
+# MongoDB runtime data
+**/data/
+**/.mongodb/
+
+# Database files
+*.ibd
+*.ibt
+*.wt
+*.bson
+*.sdi
+*.dblwr
+*.sock
+*.lock
+
+# MySQL logs/data
+binlog.*
+auto.cnf
+ibdata*
+ibtmp*
+undo_*
+ib_buffer_pool
+
+# Database certificates/keys
+*.pem
+
+# IDE
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# Environment
+.env
+*.env
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
